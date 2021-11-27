@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick_quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="/docs/5.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="cover.css" rel="stylesheet">
+    <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="d-flex h-100 text-center text-white bg-dark mt-4">
+  
+    <div class="contianer ">
+      
+        <div class="game" class="d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <div class="hud">
+                <div class="hud-item">
+                    <p class="hud-prefix">
+                        question
+                    </p>
+                    <h1 class="hud-main-text" id="questionCounter">
+                        
+                    </h1>
+                </div>
+                <div class="hud-item">
+                    <p class="hud-prefix">
+                        Scores
+                    </p>
+                    <h1 class="hud-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+            <h2 id="question"></h2>
+            <div class="choice-container">
+                <p class="choice-prefix"> A</p>
+                <p class="choice-text" data-number="1"></p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">B </p>
+                <p class="choice-text" data-number="2"></p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">C </p>
+                <p  class="choice-text" data-number="3"></p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">D </p>
+                <p class="choice-text" data-number="4"></p>
+            </div>
+
+
+        </div>
+        <script src="game.js"></script>
+    </div>
+</body>
+</html>
